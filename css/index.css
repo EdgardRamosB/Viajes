@@ -237,12 +237,12 @@ img {/*representa todos los elementos <img> que están en tu HTML.*/
 
 /*La clase .ofertas__cards--japon se aplica al elemento <article> que representa la oferta de viaje a Japón.*/
 .ofertas__cards--japon {
-    background-image: url("/2090-IA-Generativa-en-el-Front-main/img/tokyocard");
+    background-image: url("../img/tokyo@2x.png");
 }
 
 /*La clase .ofertas__cards--san-andreas se aplica al elemento <article> que representa la oferta de viaje a San Andrés.*/
 .ofertas__cards--san-andreas {
-    background-image: url("/2090-IA-Generativa-en-el-Front-main/img/san-andreas.png");
+    background-image: url("../img/san-andreas.png");
 }
 
 
