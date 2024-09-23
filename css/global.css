@@ -44,14 +44,14 @@ a {
     }
 
   .encabezado__container header {
-    background-image: url("/Users/x/Desktop/Viajes/img/menu.png");
+    background-image: url("../img/menu.png");
     background-position: right 48px top 10px; /* Ajusta la posición según tus necesidades */
     background-repeat: no-repeat;
     background-size: auto;
     }
     
     .encabezado__logo--icono {
-        content: url('/Users/x/Desktop/Viajes/img/logosolo.png'); /* Reemplaza con la ruta de tu nuevo logo */
+        content: url('../img/logosolo.png'); /* Reemplaza con la ruta de tu nuevo logo */
         width: auto; /* Ajusta el ancho si es necesario */
         height: auto; /* Ajusta la altura si es necesario */
     }
