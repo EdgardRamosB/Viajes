@@ -1,0 +1,208 @@
+:root {
+    /* Colors */
+    --blanco: #fff;
+    --negro: #000;
+    --neutral-c: #f5f5f5;
+    --gris-oscuro: #8c8c8c;
+    --grafito: #222;
+    --rojo: #b81515;
+}
+
+* {
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+   
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+/* .encabezado__container header .encabezado__navegacion {
+    display: none;
+} */
+
+/* body {
+    background-color: #b81515;
+} */
+  
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 834px) {
+    .encabezado__logo img {
+   /* margin-left: 48px; */
+    }
+
+    .encabezado__container header .encabezado__navegacion {
+      display: none; /* Oculta el menú */
+    }
+
+  .encabezado__container header {
+    background-image: url("/2090-IA-Generativa-en-el-Front-main/img/menu.png");
+    background-position: right 48px top 10px; /* Ajusta la posición según tus necesidades */
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
+    
+    .encabezado__logo--icono {
+        content: url('/2090-IA-Generativa-en-el-Front-main/img/logosolo.png'); /* Reemplaza con la ruta de tu nuevo logo */
+        width: auto; /* Ajusta el ancho si es necesario */
+        height: auto; /* Ajusta la altura si es necesario */
+    }
+
+
+   .ofertas__cards--elemento {
+        flex: 1 0 auto; /* Ajusta la tarjeta para que ocupe el ancho disponible */
+        max-width: 90%; /* Limita el ancho máximo de la tarjeta */
+        margin: 16px 0; /* Ajusta el margen vertical */
+   }
+    .ofertas {
+        flex-direction: column; /* Apila las tarjetas verticalmente */
+        align-items: center; /* Centra las tarjetas */
+    }
+
+    .ofertas__card img {
+        max-width: 100%; /* Asegura que las imágenes no se desborden del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+
+    }    
+
+    .ofertas__card {
+        padding: 16px; /* Ajusta el padding interno */
+    }
+
+    .ofertas__card--contenido {
+        padding: 8px; /* Ajusta el padding interno del contenido */
+    }
+
+
+    .busca__categorias {
+       
+        flex-wrap: wrap;
+        justify-content: space-between; /* Asegura que haya espacio entre los ítems */
+        margin: 0 -16px; /* Ajusta el margen negativo para compensar el padding */
+        padding: 0 16px; /* Agrega padding a los lados */
+
+    }
+    
+    .busca__categoria {
+        
+        margin: 0 8px; /* Margen en los lados de cada ítem */
+    }
+    
+
+    .destinos__lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 0 16px;
+    }
+
+
+    .destinos__elemento {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 16px; /* Reducir padding para pantallas pequeñas */
+        font-size: 20px;
+        background: #f5f5f5;
+    }
+
+    .destinos__elemento--boton-container {
+        padding: 16px;
+        margin: 0 auto;
+    }
+
+    .pago {
+        display: flex;
+        flex-direction: column; /* Apila los elementos verticalmente */
+    }
+
+    .pago__condiciones {
+        display: flex;
+        flex-direction: column; /* Apila los elementos verticalmente */
+      }
+
+    .pago__imagenes {
+        flex-direction: column; /* Apila las imágenes verticalmente */
+    }
+    
+    .pago__imagenes--imagen-container {
+        width: 100%; /* Ajusta el ancho de las imágenes */
+    }
+     
+    .pago__condiciones--descripcion {
+        text-align: center; /* Centra el texto dentro de este contenedor */
+    }
+     
+    .testimonios__wrapper {
+        display: flex;
+        flex-direction: column; /* Apila los elementos verticalmente */
+        align-items: center; /* Centra los elementos horizontalmente */
+      }
+    
+      .testimonios__elemento {
+        width: 100%; /* Ajusta el ancho de cada testimonio al 100% */
+        margin: 16px 16px; /* Agrega un margen superior, inferior, izquierdo y derecho de 16px */
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .footer__logo-icon {
+        display: block; /* Asegura que la imagen del logo sea un bloque y pueda ser centrado */
+        margin: 0 auto; /* Centra el logo dentro de su contenedor */
+    }
+    .footer__logo-container {
+        margin-bottom: 10px;
+        padding: 0 20px; /* Ajusta el padding horizontal */
+    }
+
+    .footer__info-container {
+        margin-top: 0;
+    }
+
+    .footer__social-media-container {
+        margin-top: 20px;
+    }
+
+    .footer__social-media-icons {
+        justify-content: center;
+    }  
+    
+   /* PARA BLOG.HTML */
+
+     .tokio__llegada--detalles{
+        font-size: 20px;
+      
+     }
+
+    
+
+}
+  
+
+/*MOBIL*/
+@media (max-width: 500px) {
+    .tokio__llegada{
+        flex-wrap: wrap;
+    }
+    
+    
+.tokio__llegada--detalles{
+
+    line-height: 32px;
+
+
+} 
+
+}
